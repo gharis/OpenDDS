@@ -15,8 +15,9 @@ open VS developer command prompt
 
 Navigate OpenDDS directory
 
-    cmd configure
-    cmd devenv DDS_TAOv2_all.sln
+    cmd configure // configure script will download ACE+TAO and configure it for your platform.
+
+    cmd devenv DDS_TAOv2_all.sln // it must start the visual studio from this command prompt so it will inherit the correct environmental variables 
 
 ## Build  Opendds   
 
@@ -26,7 +27,7 @@ Build solution - Debug/ win32
 
 VS developer comand promt
 
-    Setenv
+    Setenv // set the required environment variables before running Visual Studio
     Cd DevGuideExamples\DCPS\Messenger for C++ example
     Perl run_test.pl
     
