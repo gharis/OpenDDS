@@ -16,7 +16,7 @@ open VS developer command prompt
 Navigate OpenDDS directory
 
     cmd configure
-    cmd devenv DDS_TAOv2_all.sln.sln
+    cmd devenv DDS_TAOv2_all.sln
 
 ## Build  Opendds   
 
