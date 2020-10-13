@@ -22,6 +22,8 @@ Navigate OpenDDS directory
 
 Build solution - Debug/ win32
 
+## Run Opendds example    
+
 VS developer comand promt
 
     Setenv
