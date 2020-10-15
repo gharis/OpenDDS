@@ -16,19 +16,19 @@ Open project using cmd
 
 Build the solution in vs - debug /win32 
 
-## Server console 
+## Server console - new developer command prompt
     
     cmd E:\opndds_\OpenDDS-master\setenv 
 
     cmd E:\opndds_\OpenDDS-master\bin>.\DCPSInfoRepo -ORBEndpoint iiop://localhost:12345 -d domain_ids 
 
-## Subscriber console  
+## Subscriber console - new developer command prompt 
 
     cmd E:\opndds_\OpenDDS-master\setenv 
 
     cmd E:\opndds_\OpenDDS-master\examples\DCPS\IntroductionToOpenDDS>subscriber -DCPSConfigFile dds_tcp_conf.ini 
 
-## Publisher console 
+## Publisher console - new developer command prompt
 
     cmd E:\opndds_\OpenDDS-master\setenv 
     
