@@ -17,6 +17,10 @@ https://github.com/objectcomputing/OpenDDS/tree/master/tools/modeling/tests/Mess
 modeling sdk builds suppoers eclipse 3.x and 4.4 only 
 
 setup modeling sdk to eclipse 4.4 
+   
+    http://download.opendds.org/modeling/eclipse_44
+    http://download.opendds.org/modeling/eclipse_44
+    https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/R/eclipse-standard-luna-R-win32-x86_64.zip
 
 devguide chapter-11 explains installation 
 
