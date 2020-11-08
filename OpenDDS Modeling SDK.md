@@ -22,7 +22,7 @@ devguide chapter-11 explains installation
 
 after installation creaste new model project 
 
-then refer help in eclipse - detialed desciption on model creastion / validation and code generation 
+then refer help in eclipse - detailed description on model creation / validation and code generation 
 
 codegen transport -> add tcp child
 
@@ -44,10 +44,10 @@ locate created model files in dds repo
     dev cmd promt -> perl %ACE_ROOT%\bin\mwc.pl -type vs2019 SafGenInt.mwc 
     build with vs 
 
-this will create reuiqred typeSupport , export header and other files 
+this will create required  typeSupport, export header and other files 
 
 to create application code and application .MPC refer  link https://github.com/objectcomputing/OpenDDS/tree/master/tools/modeling/tests/Messenger
-copy pub.cpp and sub.cpp edit accordingly (namespaces according to model etc...)
+copy publisher.cpp and subscriber.cpp edit accordingly (namespaces according to model etc...)
 
     dev cmd promt -> setenv
     dev cmd promt -> perl %ACE_ROOT%\bin\mwc.pl -type vs2019 SafGenInt.mwc 
